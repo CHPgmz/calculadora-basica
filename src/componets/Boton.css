@@ -1,0 +1,28 @@
+.btn-contenedor {
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #1b1b32;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none; /*Para que el texto no se pueda seleccionar*/
+}
+
+.btn-contenedor:hover {
+  background-color: #5a01a7;
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+.operador:hover {
+  background-color: #ff6600;
+}
